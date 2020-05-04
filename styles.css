@@ -128,9 +128,15 @@ input {
 }
 
 .map_container {
+	border-radius: 15px;
+	border: 2px solid gray;
 	margin: 1em;
 	width: 25vw;
-	background-color: red;
+	background-color: rgba(25, 255, 155, 0.8);
+	display: flex;
+	flex-direction: column;
+	overflow: auto;
+	max-height: 18em;
 }
 
 .candy {
@@ -145,4 +151,38 @@ input {
 	margin: 2em;
 	margin-top: 1em;
 	margin-bottom: 1em;
+}
+
+.candy:hover {
+	width: calc(7em + 10px);
+
+}
+
+.item_container {
+	margin: 10px;
+	display: flex;
+}
+
+.item_container {
+	background-color: #ff8ec7;
+}
+
+.item_container:hover {
+	background-color:#ff80bb;
+}
+
+
+.item_picture {
+	width: 15%;
+	height: 45px;
+	background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.item_name {
+	width: 75%;
+}
+
+.remove_bnt:hover {
+	background-color: #fd4b78;
 }
