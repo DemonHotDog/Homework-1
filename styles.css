@@ -1,0 +1,148 @@
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	font-family: "Fredoka One", Times, cursive;
+	font-size: 35px;
+	font-weight: bold;
+	color: #ff8ec7;
+}
+
+.main_container {
+	background-color: #87CEFA;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+.header {
+	height: 17vh;
+	
+}
+
+
+.footer {
+	height: 10vh;
+	background-color: #79b9e1;
+}
+
+/* Header css here */
+.header_container {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+}
+
+.header_logo {
+	width: 8vw;
+	height: 100%;
+	background:url('logo.png');
+	background-repeat: no-repeat;
+  	background-size: auto;
+}
+
+.header_actions {
+	height: 100%;
+	width: 95vw;
+	
+}
+
+.header_text {
+	height: 3em;
+	text-align: center;
+}
+
+.header_actions_container {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.header_action_items {
+	align-items: flex-end;
+	display: flex;
+	flex-grow: 1;
+	flex-direction: row;
+}
+
+button {
+	font-family: "Fredoka One", Times, cursive;
+	margin: 1px solid black;
+	border-radius: 10px;
+	padding: 1em;
+	background-color: #ff8ec7;
+	margin: 1em;
+}
+
+button:hover {
+	background-color: #ff80bb;
+}
+
+input {
+	width: 25em;
+	padding: 1em;
+	margin: 1em;
+}
+
+.search_button {
+  align-items: flex-start;
+  padding: 6px 10px;
+  margin: none !important;
+  
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.link_text {
+	margin-bottom:12px;
+}
+
+.flex_filler {
+	flex-grow: 1;
+}
+
+
+/* Body sections */
+.body {
+	color:black;
+	display: flex;
+    flex-grow: 1;
+	background-image: url("bg.png");
+}
+
+.item_list {
+	border-radius: 15px;
+	border: 2px solid gray;
+	max-height: 18em;
+	max-width: 73vw;
+	overflow: auto;
+ 	flex-grow: 1;
+ 	flex-wrap: wrap;
+	margin: 1em;
+	background-color: rgba(25, 255, 155, 0.8);
+	display: flex;
+}
+
+.map_container {
+	margin: 1em;
+	width: 25vw;
+	background-color: red;
+}
+
+.candy {
+	border: 2px solid gray;
+	border-radius: 10px;
+	background-repeat:no-repeat;
+    background-size:cover;
+	background-image: url("products/candy1.jpg");
+	background-color: blue;
+	width: 7em;
+	height: 7em;
+	margin: 2em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
