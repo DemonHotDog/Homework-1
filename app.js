@@ -1,13 +1,13 @@
 var candyList = [
-"candy1",
-"candy2",
-"candy3",
-"candy4",
-"candy5",
-"candy6",
-"candy7",
-"candy8",
-"candy9"
+"Godis1",
+"Godis2",
+"Godis3",
+"Godis4",
+"Godis5",
+"Godis6",
+"Godis7",
+"Godis8",
+"Godis9"
 ]
 
 window.onload = function() {
